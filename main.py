@@ -128,7 +128,7 @@ class Window(pyglet.window.Window):
                 print("CURRENT LATEST %s"%reader.latest_page)
                 print("CURRENT CHAPTER %s"%reader.current_chapter)
                 print('TOTAL PAGES:%s'%reader.total_pages)
-                #reader.build_timeline_text(data)
+                #reader.build_log_text(data)
 
                 if reader.current_page < reader.latest_page:
                 #if Backlog
@@ -264,7 +264,7 @@ class Window(pyglet.window.Window):
             r.label_draw(r.inversion)
             r.speaker_label_draw(r.inversion)
             if r.log:
-                #r.build_timeline_text(data)
+                #r.build_log_text(data)
                 r.log_draw()
 
                 #print('Log drawing in on_draw')
@@ -573,7 +573,7 @@ class Reader():
 
         self.audio_que = (self.audio_que + ["", "", ""])[:3]
 
-        self.build_timeline_text()
+        self.build_log_text()
 
 
 
@@ -649,7 +649,7 @@ class Reader():
 
             #label.draw()
             layout2.draw()
-    def build_timeline_text(self):
+    def build_log_text(self):
         """Build timeline string from the last 10 pages including the current_page."""
         chapter_data = data[self.current_chapter]
 
