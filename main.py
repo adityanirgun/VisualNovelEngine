@@ -1,19 +1,19 @@
 import pyglet
-import sys
+#import sys
 import os
-from pyglet.window.event import WindowEventLogger
+#from pyglet.window.event import WindowEventLogger
 from pyglet.window import mouse
 from pyglet.window import key
 #import classes
-import time
+#import time
 from datetime import datetime
 import json
-from pyglet import image
-from pyglet.graphics import Batch
+#from pyglet import image
+#from pyglet.graphics import Batch
 from pyglet.gl import *
 
 from dataclasses import dataclass, field
-from typing import List, Dict, Any
+#from typing import List, Dict, Any
 
 
 class Window(pyglet.window.Window):
@@ -25,9 +25,20 @@ class Window(pyglet.window.Window):
         self.togglefullscreen = 0  # initial toggle state
         self._prev_fullscreen = self.togglefullscreen  # track previous state
         self.skip_on = 0
+        self.level = 2
+        self.story = 'The Next Chapter (default)'
+        
 
     def on_key_press(self, KEY, MOD):
         print(KEY)
+        if KEY == 109:
+            print('M Key Pressed')
+            if self.game_state == 1:
+                self.level, self.story = LevelSelect(json_array, story_array, self.level)
+
+
+         
+
         if KEY == key.LCTRL:
             print('LCTRL pressed in window')
             print(KEY)
@@ -99,6 +110,8 @@ class Window(pyglet.window.Window):
         if KEY == 65507:
             print('CTRL released')
             self.skip_on = 0
+        if KEY == 109:
+            print('M Key Released')
 
     def on_mouse_scroll(self,x,y,scroll_x,scroll_y):
         print(scroll_y)
@@ -752,7 +765,7 @@ class Reader():
             self.label_content = self.timeline_content
         if self.current_page == self.latest_page and self.latest_page != self.total_pages:
             #print('LATEST')
-            self.timeline_array = list(self.timeline_content);
+            self.timeline_array = list(self.timeline_content)
             #print(self.timeline_array)
             if self.label_content_index > len(self.timeline_array)-1:
                 #print('letter loading finished')
@@ -800,8 +813,10 @@ class Reader():
             # current_pic.height = height
             # current_pic.texture.width = width
             # current_pic.texture.height = height
-            current_pic.blit(0,0)
+            center_in_window_width = (window.width - current_pic.width) // 2
+            center_in_window_height = (window.height - current_pic.height) // 2
 
+            current_pic.blit(center_in_window_width, center_in_window_height)
             # target_width, target_height = 1920, 1080
             #
             # # Create sprite
@@ -861,18 +876,7 @@ class Reader():
         pass
     def menu_draw(self):
 
-        menu_label = pyglet.text.Label('Press SPACE to begin, F2 to LOAD chapter, ESC to Exit',
-                      font_name='Chrono Cross',
-                      font_size=36,
-                      x=10, y=10,
-                      color=(0, 255, 0, 255))
-        #dynamic menu label
-        current_progress_label = f"Chapter {self.current_chapter} Page {self.current_page}"
-        menu_label2 = pyglet.text.Label(current_progress_label,
-                font_name = 'Times New Roman',
-                font_size = 200,
-                x=10, y =250,
-                color=(0, 0, 0, 255))
+        
 
         #chrono_cross = menu_label.get_style("Chrono Cross")
         # menu_label.set_style(0,
@@ -883,10 +887,34 @@ class Reader():
         #menu_label.set_style("Chrono Cross",color=(255,255,255,1))
         #self.menu_anim_array=['white.png','black.png']
         menu_pic = pyglet.image.load('resources/frames/'+self.menu_anim_array[self.menu_count])
-        menu_pic.blit(0,0)
+        menu_pic.blit(window.width // 2 - menu_pic.width // 2, window.height // 2 - menu_pic.height // 2)
+        center_in_window_width = (window.width - menu_pic.width) // 2
+        menu_label = pyglet.text.Label('Press SPACE to begin, F2 to LOAD chapter, ESC to Exit, M to Toggle Releases, L for Log, F for Fullscreen',
+                      font_name='Chrono Cross',
+                      font_size=34,
+                      x= center_in_window_width + 2, y= (window.height - menu_pic.height) // 2,
+                      color=(0, 0, 0, 255))
+        #dynamic menu label
+        current_progress_label = f"Chapter {self.current_chapter} Page {self.current_page}"
+        menu_label2 = pyglet.text.Label(current_progress_label,
+                font_name = 'Times New Roman',
+                font_size = 200,
+                x= center_in_window_width, y =window.height // 2 - menu_pic.height // 4,
+                color=(0, 0, 0, 255))
+        current_story_label = f"Story: {window.story}"
+        menu_label3 = pyglet.text.Label(current_story_label,
+                font_name = 'Times New Roman',
+                font_size = 36,
+                x= center_in_window_width, y =window.height // 2 - menu_pic.height // 3,
+                color=(0, 0, 0, 255))
+                
+
+
+        #menu_pic.blit(0,0)
         #print('menu count =' + str(self.menu_count))
         menu_label.draw()
         menu_label2.draw()
+        menu_label3.draw()
 
 class Memory():
     def __init__(self):
@@ -960,6 +988,18 @@ class AnimPlayer():
     def play():
         pass
 
+def LevelSelect(json_array, story_array, level):
+    global data
+    print('Change Level Key press')
+    level = (level + 1) % len(json_array)
+    print('Current Level: %s -- %s' % (json_array[level], story_array[level]))
+    reader.current_chapter = 0
+    reader.current_page = 0
+    reader.latest_page = 0
+    with open(json_array[level]) as f:
+        data = json.load(f)
+    return level, story_array[level]
+
 if __name__ == '__main__':
     #pyglet.resource.path = ['resources/media','resources/frames', 'resources/fonts']
     pyglet.resource.path = ['resources/media','resources/frames','resources/fonts']
@@ -969,12 +1009,20 @@ if __name__ == '__main__':
     clock = pyglet.clock
     window = Window(style=pyglet.window.Window.WINDOW_STYLE_BORDERLESS, vsync=False)
     #window.set_size(1786, 1086)
+    #window.set_size(2560, 1440)
     window.set_size(1920,1080)
     if window.fullscreen == 1:
         window.set_fullscreen(True)
     if window.fullscreen == 0:
         window.set_fullscreen(False)
-    with open('timeline.json') as f:
+
+    json_array = ['demo_timeline.json', 'timeline.json', 'timeline_test.json']
+    story_array = ['Protostory (2024)', 'First Release (2025)', 'The Next Story (2026)']
+    
+
+
+
+    with open('timeline_test.json') as f:
         data = json.load(f)
 
     # cursor = pyglet.image.load('cursor.png')
@@ -1034,7 +1082,7 @@ if __name__ == '__main__':
     def tick(dt):
         #print(window.togglefullscreen)
         #print(window.game_state)
-
+        
         if window.togglefullscreen != window._prev_fullscreen:
             window.set_fullscreen(window.togglefullscreen)
             window._prev_fullscreen = window.togglefullscreen
