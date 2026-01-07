@@ -30,6 +30,7 @@ How to play:
 * __spacebar__ or __click__ to continue
 * __F__ to toggle fullscreen
 * __L__ to toggle log
+* __m__ at menu to cycle releases
 * __ctrl__ to skip
 * __f1__ to save at chapter checkpoints
 * __f2__ to load
