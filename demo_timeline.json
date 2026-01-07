@@ -2,7 +2,7 @@
     {
 	"page0":[
       [""," ...?",1],
-			["PLAY","theme13.wav", "sfx1.wav"],
+			["PLAY","theme13.mp3", "sfx1.wav"],
 			[
         "black.png"
 			],
@@ -65,7 +65,7 @@
 	],
 	"page5":[
 	["","He keeps his eyes open and listens",1],
-  ["STOP","theme13.wav"],
+  ["STOP","theme13.mp3"],
   [
   "pend0000.png",
   "pend0000.png",
@@ -121,7 +121,7 @@
 ],
   "page8":[
     ["","there it was. \n utensils sliding in drawers, shifting feet, \n there was no doubt: \n someone was in the house",1],
-    ["PLAY","theme13.wav"],
+    ["PLAY","theme13.mp3"],
     ["black.png"],
     []
 ],
@@ -545,7 +545,7 @@
 ],
   "page58":[
     ["","",1],
-    ["STOP","theme13.wav",""],
+    ["STOP","theme13.mp3",""],
     ["glass0004.png"],
     []
 ],
@@ -563,7 +563,7 @@
 ],
   "page61":[
     ["","Still no reaction from downstairs. The sounds continue.",0],
-    ["PLAY","theme13.wav",""],
+    ["PLAY","theme13.mp3",""],
     ["doorperspective0000.png"],
     []
 ],
@@ -619,7 +619,7 @@
 {
   "page0":[
     ["","",1],
-    ["PLAY", "theme13.wav"],
+    ["PLAY", "theme13.mp3"],
     ["drawer0000.png"],
     []
   ],
@@ -841,7 +841,7 @@
 {
     "page0":[
       ["", "Previously hidden, a dim emerald prism comes into view: built into the partial wall before the rest of the kitchen, dividing it from the adjacent living space was an aquarium tank. The swath of light from inside the kitchen was dimly illuminating the green water, projecting amorphous shadows on the immediate wall, as the fish tank's own lights, like all the others, was out.",1],
-      ["PLAY", "theme13.wav"],
+      ["PLAY", "theme13.mp3"],
       ["partialwall0000.png"],
       []
     ],
@@ -979,7 +979,7 @@
     ],
     "page22":[
       ["", "As he waited, he began to relax a bit and, inevitably, he was forced to reflect on what he saw in front of the fridge just a moment earlier there...",1],
-      ["STOP","theme13.wav"],
+      ["STOP","theme13.mp3"],
       ["black.png"],
       []
     ],
