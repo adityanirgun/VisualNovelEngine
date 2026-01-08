@@ -887,6 +887,8 @@ class Reader():
         #menu_label.set_style("Chrono Cross",color=(255,255,255,1))
         #self.menu_anim_array=['white.png','black.png']
         menu_pic = pyglet.image.load('resources/frames/'+self.menu_anim_array[self.menu_count])
+        #for pyinstaller
+        # menu_pic = pyglet.image.load(os.path.join(base_path, "resources", "frames", self.menu_anim_array[self.menu_count]))
         menu_pic.blit(window.width // 2 - menu_pic.width // 2, window.height // 2 - menu_pic.height // 2)
         center_in_window_width = (window.width - menu_pic.width) // 2
         menu_label = pyglet.text.Label('Press SPACE to begin, F2 to LOAD chapter, ESC to Exit, M to Toggle Releases, L for Log, F for Fullscreen',
@@ -1003,6 +1005,17 @@ def LevelSelect(json_array, story_array, level):
 if __name__ == '__main__':
     #pyglet.resource.path = ['resources/media','resources/frames', 'resources/fonts']
     pyglet.resource.path = ['resources/media','resources/frames','resources/fonts']
+
+    # if getattr(sys, 'frozen', False):
+    #     base_path = sys._MEIPASS
+    # else:
+    #     base_path = os.path.dirname(__file__)
+
+    # pyglet.resource.path = [
+    #     os.path.join(base_path, "resources", "media"),
+    #     os.path.join(base_path, "resources", "frames"),
+    #     os.path.join(base_path, "resources", "fonts"),
+    # ]
 
     pyglet.resource.reindex()
 
