@@ -27,7 +27,7 @@ class Window(pyglet.window.Window):
         self.skip_on = 0
         self.level = 2
         self.story = 'The Next Chapter (default)'
-        
+
 
     def on_key_press(self, KEY, MOD):
         print(KEY)
@@ -37,7 +37,7 @@ class Window(pyglet.window.Window):
                 self.level, self.story = LevelSelect(json_array, story_array, self.level)
 
 
-         
+
 
         if KEY == key.LCTRL:
             print('LCTRL pressed in window')
@@ -151,13 +151,15 @@ class Window(pyglet.window.Window):
 
                     reader.timeline_read(reader.current_page)
                     ''' PLAY AUDIO when backlog'''
+                    '''Abstract PLAY AUDIO'''
                     audioPlayer.stop()
                     if reader.audio_que:
+
                         audioPlayer.play(reader.audio_que)
                     else:
                         print("No audio que'd")
 
-                #if Current
+                #else Current
                 else:
                     #if currently letter loading
                     if reader.label_content_index < len(reader.timeline_array)-1:
@@ -174,7 +176,8 @@ class Window(pyglet.window.Window):
 
                         reader.label_content_index = len(reader.timeline_array)-1
                         '''PLAY AUDIO on mouse release when letterload'''
-
+                        #consider timing
+                        #add code - logical statement to check for timing
                         audioPlayer.stop()
                         if reader.audio_que:
                             audioPlayer.play(reader.audio_que)
@@ -273,6 +276,7 @@ class Window(pyglet.window.Window):
             # Draw page content
             r.img_draw()
             r.character_draw()
+            #perhaps add hide text function here
             r.letter_load()
             r.label_draw(r.inversion)
             r.speaker_label_draw(r.inversion)
@@ -310,28 +314,44 @@ class Window(pyglet.window.Window):
         #reader.speaker_label_draw(reader.inversion)
 
 
-            if r.audio_que and r.audio_que[1]:
+            if r.audio_que:
+                music_que = r.audio_que[0]
 
-                    music_que, music_file = r.audio_que[0], r.audio_que[1]
-                    #music = pyglet.resource.media(music_file)
-                    if r.current_page == r.latest_page:
+                if r.current_page == r.latest_page:
+                    if music_que == 'STOP':
                         if music_player.playing:
-                            #print('MUSiC is playing')
-                            if music_que == 'STOP':
-                                if music_player.playing:
-                                    music_player.pause()
-                            if not music_que == 'STOP' and not music_que == 'PLAY':
-                                print("Unhandled command:{}".format(music_que))
+                            music_player.pause()
 
-                        else:
-                            if music_que == 'PLAY':
+                    elif music_que in ('PLAY', 'TRAN'):
+                        if len(r.audio_que) >= 2 and r.audio_que[1]:
+                            music_file = r.audio_que[1]
+                            should_play = True
+
+                            # TRAN-specific logic: check if transitioning from same file
+                            if music_que == 'TRAN' and music_player.playing:
+                                current_source = music_player.source
+                                current_file = getattr(current_source, 'filename', None) if current_source else None
+
+                                if current_file == music_file:
+                                    print(f"Debug: TRAN ignored - already playing {music_file}")
+                                    should_play = False
+                                else:
+                                    print(f"Transitioning from {current_file} to {music_file}")
+                                    music_player.pause()
+                                    # Add transition-specific code here (fade out, etc.)
+                                    #audio timecode here devisible by bpm and only transition at 4bar
+                                    #
+
+                            # Shared play logic for both PLAY and TRANS
+                            if should_play and (not music_player.playing or music_que == 'TRAN'):
                                 music = pyglet.resource.media(music_file)
                                 if music:
                                     music_player.queue(music)
                                 music_player.next_source()
                                 music_player.play()
-                            if not music_que == 'STOP' and not music_que == 'PLAY':
-                                print("Unhandled command:{}".format(music_que))
+
+                    else:
+                        print(f"Unhandled command: {music_que}")
 
 
     def on_close(self):
@@ -592,7 +612,7 @@ class Reader():
 
         '''
         loop, loop_duration, fade, low pass, high pass, distortions = self.audio_meta
-        but maybe this ^ all happens in the audioplayer? audio_meta surely passed on wholesale to audioplayer class
+        but maybe this ^ all happens in the audioplayer? audio_meta surely passed on wholesale to audioplayer class or on_draws music_player
 
         fade (white, back, none), fade duration, loop, loop_duration, auto advance, screen shake etc, = self.animation_meta
 
@@ -876,7 +896,7 @@ class Reader():
         pass
     def menu_draw(self):
 
-        
+
 
         #chrono_cross = menu_label.get_style("Chrono Cross")
         # menu_label.set_style(0,
@@ -909,7 +929,7 @@ class Reader():
                 font_size = 36,
                 x= center_in_window_width, y =window.height // 2 - menu_pic.height // 3,
                 color=(0, 0, 0, 255))
-                
+
 
 
         #menu_pic.blit(0,0)
@@ -964,7 +984,8 @@ class AudioPlayer():
     #     music_player.play()
 
     def play(self,audio_que):
-        if reader.audio_que != None and reader.audio_que[2] != "":
+        if reader.audio_que != None and reader.audio_que[2] != "":#if audio_que data containing  assigned from timeline
+
             print('AUDIO QUE:'+str(audio_que[2]))
 
             # player = pyglet.media.Player()
@@ -1031,7 +1052,7 @@ if __name__ == '__main__':
 
     json_array = ['demo_timeline.json', 'timeline.json', 'timeline_test.json']
     story_array = ['Protostory (2024)', 'First Release (2025)', 'The Next Story (2026)']
-    
+
 
 
 
@@ -1095,7 +1116,7 @@ if __name__ == '__main__':
     def tick(dt):
         #print(window.togglefullscreen)
         #print(window.game_state)
-        
+
         if window.togglefullscreen != window._prev_fullscreen:
             window.set_fullscreen(window.togglefullscreen)
             window._prev_fullscreen = window.togglefullscreen
