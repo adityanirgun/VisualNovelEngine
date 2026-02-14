@@ -27,7 +27,7 @@ class Window(pyglet.window.Window):
         self.skip_on = 0
         self.level = 2
         self.story = 'The Next Chapter (default)'
-
+        self.current_music_file = None
 
     def on_key_press(self, KEY, MOD):
         print(KEY)
@@ -259,20 +259,23 @@ class Window(pyglet.window.Window):
         #print(f"{cfreq} since last draw")
         #mouse click logic; detecting mouse on every draw frame
         if self.game_state == 1:
-            r = reader
+            #r = reader
             r.menu_draw()
+        #Below is handled in tick
+        #things have slowed 
         if self.game_state == 2:
             if music_player.playing == True:
                 #print('AUDIO IS PLAYING')
                 music_player.pause()
+                Print('STARTING AUDIO PAUSED')
             return
-
+        
 
         if self.game_state == 3:
             #if key.LCTRL:
             #    reader.skip = 1
             #    print('CTRL on draw')
-            r = reader #cache
+            #r = reader #cache
             # Draw page content
             r.img_draw()
             r.character_draw()
@@ -312,46 +315,77 @@ class Window(pyglet.window.Window):
                 r.save_label_draw(r.inversion)
 
         #reader.speaker_label_draw(reader.inversion)
+            '''if music_player.playing:
+                print("music_player is playing")
+            else:
+                print("music_player is not playing")
+            '''
+            if r.current_page != r.latest_page:
+                return #ends draw here before music play if not current page
+            if not any(r.audio_que):
+                return
+            music_que = r.audio_que[0]
+            
+            '''Below is debug'''
+            if music_que:
+                if music_que != 'PLAY' and not music_player.playing:
+                    print("Current Music Command:" + music_que)
+            else:
+                print("No Music Command")
+            ''''''
+            
+            if music_que == 'STOP':
+                music_player.pause()
+                print('MUSIC STOPPED')
 
-
-            if r.audio_que:
-                music_que = r.audio_que[0]
-
-                if r.current_page == r.latest_page:
-                    if music_que == 'STOP':
-                        if music_player.playing:
+            elif music_que in ('PLAY', 'TRAN'):
+                print("Audio Que: "+ str(r.audio_que))#debug
+                if r.audio_que[1]:
+                    print("audio filename read from json")#debug
+                    music_file = r.audio_que[1]
+                    should_play = True
+                    #if PLAY and same track/track already loaded/playing then
+                    #current_source = music_player.source
+                    #current_file = getattr(current_source, 'filename', None) if current_source else None
+                    '''if self.current_music_file == music_file:
+                        print(f'already playing!{music_file}')
+                        should_play = False
+                    '''
+                    # TRAN-specific logic: check if transitioning from same file
+                    if music_que == 'TRAN' and music_player.playing:
+                        
+                        if self.current_music_file == music_file:
+                            print(f"Debug: TRAN ignored - already playing {music_file}. Should_play flag disables")
+                            should_play = False
+                        else:
+                        
+                            print(f"Transitioning from {self.current_music_file} to {music_file}")
                             music_player.pause()
-
-                    elif music_que in ('PLAY', 'TRAN'):
-                        if len(r.audio_que) >= 2 and r.audio_que[1]:
-                            music_file = r.audio_que[1]
-                            should_play = True
-
-                            # TRAN-specific logic: check if transitioning from same file
-                            if music_que == 'TRAN' and music_player.playing:
-                                current_source = music_player.source
-                                current_file = getattr(current_source, 'filename', None) if current_source else None
-
-                                if current_file == music_file:
-                                    print(f"Debug: TRAN ignored - already playing {music_file}")
-                                    should_play = False
-                                else:
-                                    print(f"Transitioning from {current_file} to {music_file}")
-                                    music_player.pause()
-                                    # Add transition-specific code here (fade out, etc.)
-                                    #audio timecode here devisible by bpm and only transition at 4bar
-                                    #
-
-                            # Shared play logic for both PLAY and TRANS
-                            if should_play and (not music_player.playing or music_que == 'TRAN'):
-                                music = pyglet.resource.media(music_file)
-                                if music:
-                                    music_player.queue(music)
-                                music_player.next_source()
-                                music_player.play()
-
+                        # Add transition-specific code here (fade out, etc.)
+                        #audio timecode here devisible by bpm and only transition at 4bar
+                    '''elif music_player.playing:
+                        should_play = False
+                        print('music is already playing')
+                    '''
+                    # Shared play logic for both PLAY and TRANS
+                    if should_play and not music_player.playing:
+                        print(f"PLAYING NEXT CONDITIONS MET: PLAYING NEXT {music_file}")
+                        music = pyglet.resource.media(music_file, streaming=True)
+                        print(f"music file {music_file} loaded")
+                        music_player.queue(music)
+                        music_player.next_source()
+                        print('BEFORE PLAY')
+                        music_player.play()
+                        print('AFTER PLAY')
+                        print("music file set to play")
+                        self.current_music_file = music_file
                     else:
-                        print(f"Unhandled command: {music_que}")
+                        print("music did not trigger 'play' this loop")
+                
+            elif music_que is None:
+                print("Current command blank")
+            else:
+                print(f"Unhandled command: {music_que}")
 
 
     def on_close(self):
@@ -605,7 +639,7 @@ class Reader():
             self.inversion = self.timeline_que[2]
 
         self.audio_que = (self.audio_que + ["", "", ""])[:3]
-
+        #ensures audio que is length 3, adds empty values if missing from json
         self.build_log_text()
 
 
@@ -984,7 +1018,7 @@ class AudioPlayer():
     #     music_player.play()
 
     def play(self,audio_que):
-        if reader.audio_que != None and reader.audio_que[2] != "":#if audio_que data containing  assigned from timeline
+        if reader.audio_que != None and reader.audio_que[2] !="" :#if audio_que data containing  assigned from timeline
 
             print('AUDIO QUE:'+str(audio_que[2]))
 
@@ -1066,7 +1100,7 @@ if __name__ == '__main__':
     print('main test')
     mousebuttons = mouse.MouseStateHandler()
     keys = key.KeyStateHandler()
-
+    #abstract music player into class
     music_player = pyglet.media.Player()
     music = pyglet.resource.media("theme0.wav")
     music_player.queue(music)
@@ -1087,6 +1121,7 @@ if __name__ == '__main__':
     #load menu buttons
     #reader = classes.Reader()
     reader = Reader()
+    r = reader
     memory = Memory()
     completion = Completion()
     print('COMPLETION:%s'%completion.report())

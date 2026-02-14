@@ -2,7 +2,7 @@
         {
 		"page0":[
       [],
-			["PLAY", "audio1.mp3"],
+			["PLAY", "audio1.ogg"],
       [
       "voronoi_test0001.bmp",
       "voronoi_test0002.bmp",
@@ -39,7 +39,7 @@
 		,
   "page1":[
       [],
-			["TRAN", "audio2.mp3"],
+			["TRAN", "audio3.ogg","Pop.wav"],
       [
 
     "BIRD002.bmp"
@@ -47,7 +47,7 @@
       [],
       {},
       {},
-      {"loop":1, "playthrough":1},
+      {"loop":1, "playthrough":0},
       {}
 
 		]
@@ -63,7 +63,7 @@
       [],
       {},
       {},
-      {"loop":1, "playthrough":1},
+      {"loop":1, "playthrough":0},
       {}
 
     ]
