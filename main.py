@@ -321,7 +321,7 @@ class Window(pyglet.window.Window):
                 print("music_player is not playing")
             '''
             if r.current_page != r.latest_page:
-                return #ends draw here before music play if not current page
+                return #ends draw here before music play if not current page; kinda big functionality here. maybe reconsider to open things up
             if not any(r.audio_que):
                 return
             music_que = r.audio_que[0]
@@ -494,7 +494,7 @@ class Reader:
 
 
     actually it might not be worth it to use dataclasses, might be too much work and might diverge from the vision too much
-    but it is worth it to reorganize the que into a dictionary for the pros of default values and easy extensibility
+    but [done] it is worth it to reorganize the que into a dictionary for the pros of default values and easy extensibility
     converting all to dataclasses does allow default values for safety and error prevention in the json to a wild degree
 
     def load_page_data(self, page_data: list[Any]) -> None:
@@ -621,7 +621,7 @@ class Reader():
         ("animation_meta", {}),
         ("character_meta", {})
         ]
-
+        #autoplay_meta:page stay length - based on audio or presetvalues?, 
         for i, (attr, default) in enumerate(mapping):
             value = page_data[i] if i < len(page_data) else default
             setattr(self, attr, value)   # assigns self.timeline_content, etc.
