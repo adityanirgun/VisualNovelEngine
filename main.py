@@ -92,12 +92,12 @@ class Window(pyglet.window.Window):
         #if KEY == key.L:
         if KEY == 108 :
             print("L Key pressed")
-            if reader.log == 0:
-                reader.log = 1
+            if r.log == 0:
+                r.log = 1
                 print('log turned on')
             else:
-                if reader.log == 1:
-                    reader.log = 0
+                if r.log == 1:
+                    r.log = 0
                     print('log turned off')
         '''
         if KEY  == 65507:
@@ -117,12 +117,12 @@ class Window(pyglet.window.Window):
         print(scroll_y)
         if self.game_state == 3:
             #reader.log =0
-            if scroll_y > 0 and reader.current_page > 0 and reader.current_page < reader.total_pages:
-                reader.current_page = reader.current_page - 1
-                reader.timeline_read(reader.current_page)
-            if scroll_y < 0 and reader.current_page < reader.latest_page-1 and reader.current_page < reader.total_pages:
-                reader.current_page = reader.current_page + 1
-                reader.timeline_read(reader.current_page)
+            if scroll_y > 0 and r.current_page > 0 and r.current_page < r.total_pages:
+                r.current_page = r.current_page - 1
+                r.timeline_read(r.current_page)
+            if scroll_y < 0 and r.current_page < r.latest_page-1 and r.current_page < r.total_pages:
+                r.current_page = r.current_page + 1
+                r.timeline_read(r.current_page)
 
     def on_mouse_release(self,x,y,button, modifiers):
         '''Might need to abstract a function here like load new page or something for clarity. like make everything after gamestate check a method within reader possibly '''
@@ -136,51 +136,52 @@ class Window(pyglet.window.Window):
                 #if game in play mode
                 #print stats
                 print('COMPLETION:%s'%completion.report())
-                print("DATA LENGTH %s"%reader.total_chapters)
-                print("CURRENT PAGE %s"%reader.current_page)
-                print("CURRENT LATEST %s"%reader.latest_page)
-                print("CURRENT CHAPTER %s"%reader.current_chapter)
-                print('TOTAL PAGES:%s'%reader.total_pages)
+                print("DATA LENGTH %s"%r.total_chapters)
+                print("CURRENT PAGE %s"%r.current_page)
+                print("CURRENT LATEST %s"%r.latest_page)
+                print("CURRENT CHAPTER %s"%r.current_chapter)
+                print('TOTAL PAGES:%s'%r.total_pages)
                 #reader.build_log_text(data)
-
-                if reader.current_page < reader.latest_page:
+                #r.load_img()
+                r.animation_counter = 0
+                if r.current_page < r.latest_page:
                 #if Backlog
-                    reader.label_content = ""
+                    r.label_content = ""
                     #turn page with BACKLOG
-                    reader.current_page += 1
+                    r.current_page += 1
 
-                    reader.timeline_read(reader.current_page)
+                    r.timeline_read(r.current_page)
                     ''' PLAY AUDIO when backlog'''
                     '''Abstract PLAY AUDIO'''
                     audioPlayer.stop()
-                    if reader.audio_que:
+                    if r.audio_que:
 
-                        audioPlayer.play(reader.audio_que)
+                        audioPlayer.play(r.audio_que)
                     else:
                         print("No audio que'd")
 
                 #else Current
                 else:
                     #if currently letter loading
-                    if reader.label_content_index < len(reader.timeline_array)-1:
+                    if r.label_content_index < len(r.timeline_array)-1:
 
                         print('skipping letterloading')
                         #time.sleep(0.1)
                         #skip letterloading
                         #reader.label_content_index = 0
                         #reader.label_content = ""
-                        reader.label_content = reader.timeline_content
+                        r.label_content = r.timeline_content
                         #reader.label_content_index = len(reader.timeline_array)
 
                         #reader.latest_page = reader.latest_page + 1
 
-                        reader.label_content_index = len(reader.timeline_array)-1
+                        r.label_content_index = len(r.timeline_array)-1
                         '''PLAY AUDIO on mouse release when letterload'''
                         #consider timing
                         #add code - logical statement to check for timing
                         audioPlayer.stop()
-                        if reader.audio_que:
-                            audioPlayer.play(reader.audio_que)
+                        if r.audio_que:
+                            audioPlayer.play(r.audio_que)
                         else:
                             print("No audio que'd")
 
@@ -191,55 +192,55 @@ class Window(pyglet.window.Window):
 
 
                     #if letter loading finished
-                    if reader.label_content_index > len(reader.timeline_array)-1:
-                        if reader.current_page < reader.total_pages:
+                    if r.label_content_index > len(r.timeline_array)-1:
+                        if r.current_page < r.total_pages:
                             #not last page of chapter
                             print('turn page')
-                            reader.label_content_index = 0
-                            reader.label_content = "";
+                            r.label_content_index = 0
+                            r.label_content = "";
                             #if reader.current_page < reader.latest_page:
 
-                            reader.current_page += 1
+                            r.current_page += 1
                             '''Turn Page'''
 
-                            if reader.current_page > reader.latest_page:
+                            if r.current_page > r.latest_page:
                                 #new page
 
-                                reader.latest_page += 1
+                                r.latest_page += 1
 
 
                             # if reader.current_page > reader.latest_page:
                             #     reader.latest_page = reader.latest_page + 1
 
                             #reader.latest_page = reader.latest_page + 1
-                            if reader.latest_page == reader.total_pages:
+                            if r.latest_page == r.total_pages:
                                 #last page of chapter
                                 print('CHAPTER END')
-                                reader.save_label_draw(reader.inversion)
+                                r.save_label_draw(r.inversion)
 
 
-                        if reader.current_page == reader.total_pages:
+                        if r.current_page == r.total_pages:
                             #last page in chapter
-                             reader.current_chapter += 1
-                             reader.latest_page = 0
-                             reader.current_page = 0
+                             r.current_chapter += 1
+                             r.latest_page = 0
+                             r.current_page = 0
                              #reader.current_page = -1
                              print('new chapter started')
 
-                        reader.timeline_read(reader.current_page)
+                        r.timeline_read(r.current_page)
                         '''
                         mouse release after letter loading finished (normal click)'''
                         audioPlayer.stop()
                         #stop ongoing sound fx from last page
-                        if reader.audio_que:
-                            audioPlayer.play(reader.audio_que)
+                        if r.audio_que:
+                            audioPlayer.play(r.audio_que)
                         else:
                             print("No audio que'd")
                         #start sound fx from new page on mouseclicka
 
 
 
-                    if reader.current_chapter >= reader.total_chapters:
+                    if r.current_chapter >= r.total_chapters:
                         #last chapter in route
                         completion.route_finish()
                         pyglet.app.exit()
@@ -262,14 +263,14 @@ class Window(pyglet.window.Window):
             #r = reader
             r.menu_draw()
         #Below is handled in tick
-        #things have slowed 
+        #things have slowed
         if self.game_state == 2:
             if music_player.playing == True:
                 #print('AUDIO IS PLAYING')
                 music_player.pause()
                 Print('STARTING AUDIO PAUSED')
             return
-        
+
 
         if self.game_state == 3:
             #if key.LCTRL:
@@ -325,7 +326,7 @@ class Window(pyglet.window.Window):
             if not any(r.audio_que):
                 return
             music_que = r.audio_que[0]
-            
+
             '''Below is debug'''
             if music_que:
                 if music_que != 'PLAY' and not music_player.playing:
@@ -333,7 +334,7 @@ class Window(pyglet.window.Window):
             else:
                 print("No Music Command")
             ''''''
-            
+
             if music_que == 'STOP':
                 music_player.pause()
                 print('MUSIC STOPPED')
@@ -353,12 +354,12 @@ class Window(pyglet.window.Window):
                     '''
                     # TRAN-specific logic: check if transitioning from same file
                     if music_que == 'TRAN' and music_player.playing:
-                        
+
                         if self.current_music_file == music_file:
                             print(f"Debug: TRAN ignored - already playing {music_file}. Should_play flag disables")
                             should_play = False
                         else:
-                        
+
                             print(f"Transitioning from {self.current_music_file} to {music_file}")
                             music_player.pause()
                         # Add transition-specific code here (fade out, etc.)
@@ -381,7 +382,7 @@ class Window(pyglet.window.Window):
                         self.current_music_file = music_file
                     else:
                         print("music did not trigger 'play' this loop")
-                
+
             elif music_que is None:
                 print("Current command blank")
             else:
@@ -540,6 +541,7 @@ class Reader():
         self.timeline_meta = {}
 
         self.animation_counter = 0
+        self.loaded_frames = []
         self.image_array = []
         self.timeline_array = []
         self.character_que = {}
@@ -621,7 +623,7 @@ class Reader():
         ("animation_meta", {}),
         ("character_meta", {})
         ]
-        #autoplay_meta:page stay length - based on audio or presetvalues?, 
+        #autoplay_meta:page stay length - based on audio or presetvalues?,
         for i, (attr, default) in enumerate(mapping):
             value = page_data[i] if i < len(page_data) else default
             setattr(self, attr, value)   # assigns self.timeline_content, etc.
@@ -663,9 +665,9 @@ class Reader():
         # document_content = "{.margin_left '150px'}{font_name 'Chrono Cross'}{font_size 28}"+self.label_content+"{color (0, 0, 0, 255)}"
         if inversion == 1:
             #print("INVERTED")
-            document_content = "{.margin_left '150px'}{font_name 'Chrono Cross'}{font_size 28}{color (255, 255, 255, 255)}{background_color (0,0,0,255)}"+self.label_content
+            document_content = "{.margin_left '150px'}{font_name 'EB Garamond'}{font_size 28}{color (255, 255, 255, 255)}{background_color (0,0,0,255)}"+self.label_content
         else:
-            document_content = "{.margin_left '150px'}{font_name 'Chrono Cross'}{font_size 28}{background_color (255,255,255,255)}"+self.label_content
+            document_content = "{.margin_left '150px'}{font_name 'EB Garamond'}{font_size 28}{background_color (255,255,255,255)}"+self.label_content
 
         document = pyglet.text.decode_attributed(document_content)
         width = window.width//1.35
@@ -701,10 +703,10 @@ class Reader():
         else:
             if inversion == 1:
                 #print("INVERTED")
-                document_content2 = "{.margin_left '10px'}{font_name 'Chrono Cross'}{font_size 20}{bold True}{color (255, 255, 255, 255)}"+self.speaker_content+":"
+                document_content2 = "{.margin_left '10px'}{font_name 'EB Garamond'}{font_size 20}{bold True}{color (255, 255, 255, 255)}"+self.speaker_content+":"
 
             else:
-                document_content2 = "{.margin_left '10px'}{font_name 'Chrono Cross'}{font_size 20}{bold True}"+self.speaker_content+":"
+                document_content2 = "{.margin_left '10px'}{font_name 'EB Garamond'}{font_size 20}{bold True}"+self.speaker_content+":"
 
 
 
@@ -837,10 +839,16 @@ class Reader():
                 #print(self.label_content)
                 self.label_content_index = self.label_content_index + 1
 
+    def load_img(self):
+        self.loaded_frames = [
+            pyglet.image.load('resources/frames/' + f)
+            for f in self.animation_que
+        ]
     def img_draw(self):
         #timeline cues direct reader to load and blit and animate everything inside img_draw. img_draw must be made more robust and image files must draw from elsewhere
 
         #print('img_draw called')
+        #frames = self.loaded_frames
         frames = self.animation_que
         #print(len(frames))
 
@@ -848,12 +856,13 @@ class Reader():
         #print(len(frames))
         #print(count)
 
-        if count < len(frames) and frames:
+        if frames and 0 <= count < len(frames):
             #print(count)
             ''' THIS IS THE SLOW DOWN'''
             #current_pic = pyglet.resource.image(frames[count-1])
             #For local running
-            current_pic = pyglet.image.load('resources/frames/'+frames[count-1])
+            current_pic = pyglet.image.load('resources/frames/'+frames[count])
+            #current_pic = self.loaded_frames[count]
             #for pyinstaller
             #current_pic = pyglet.image.load('_internal/resources/frames/'+frames[count-1])
             #print(f"{current_pic} = CURRENT PIC")
@@ -1135,6 +1144,8 @@ if __name__ == '__main__':
     pyglet.font.load('Times New Roman')
     pyglet.resource.add_font('Chrono Cross.ttf')
     pyglet.font.load('Chrono Cross')
+    pyglet.resource.add_font('EBGaramond-Regular.ttf')
+    pyglet.font.load('EB Garamond')
     os.environ["PYGLET_AUDIO_DRIVER"] = "openal"
     def on_close():
         pyglet.font.quit()
@@ -1260,7 +1271,7 @@ if __name__ == '__main__':
             #reader.menu_count = (reader.animation_counter if frames_length else 0)% len(reader.menu_anim_array)
             reader.menu_count = (reader.menu_count + 1) % (len(reader.menu_anim_array)+1)
             '''
-    clock.schedule_interval(tick, 1/24)
+    clock.schedule_interval(tick, 1/12)
 
 
     #clock.schedule_interval(tick, 0.001)
