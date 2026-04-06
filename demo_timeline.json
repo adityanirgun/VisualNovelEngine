@@ -2,7 +2,7 @@
     {
 	"page0":[
       [""," ...?",1],
-			["PLAY","theme13.mp3", "sfx1.wav"],
+			["PLAY","theme13.ogg", "sfx1.ogg"],
 			[
         "black.png"
 			],
@@ -20,7 +20,7 @@
 		],
     "page2":[
       ["",""],
-			["","","sfx1.wav"],
+			["","","sfx1.ogg"],
       [
         "black.png"
 			],
@@ -65,7 +65,7 @@
 	],
 	"page5":[
 	["","He keeps his eyes open and listens",1],
-  ["STOP","theme13.mp3"],
+  ["STOP","theme13.ogg"],
   [
   "pend0000.png",
   "pend0000.png",
@@ -113,7 +113,7 @@
 ],
 	"page7":[
 	[],
-	["","","sfx1.wav"],
+	["","","sfx1.ogg"],
 	[
     "room0000.png"
   ],
@@ -121,7 +121,7 @@
 ],
   "page8":[
     ["","there it was. \n utensils sliding in drawers, shifting feet, \n there was no doubt: \n someone was in the house",1],
-    ["PLAY","theme13.mp3"],
+    ["PLAY","theme13.ogg"],
     ["black.png"],
     []
 ],
@@ -545,7 +545,7 @@
 ],
   "page58":[
     ["","",1],
-    ["STOP","theme13.mp3",""],
+    ["STOP","theme13.ogg",""],
     ["glass0004.png"],
     []
 ],
@@ -563,7 +563,7 @@
 ],
   "page61":[
     ["","Still no reaction from downstairs. The sounds continue.",0],
-    ["PLAY","theme13.mp3",""],
+    ["PLAY","theme13.ogg",""],
     ["doorperspective0000.png"],
     []
 ],
@@ -619,7 +619,7 @@
 {
   "page0":[
     ["","",1],
-    ["PLAY", "theme13.mp3"],
+    ["PLAY", "theme13.ogg"],
     ["drawer0000.png"],
     []
   ],
@@ -841,7 +841,7 @@
 {
     "page0":[
       ["", "Previously hidden, a dim emerald prism comes into view: built into the partial wall before the rest of the kitchen, dividing it from the adjacent living space was an aquarium tank. The swath of light from inside the kitchen was dimly illuminating the green water, projecting amorphous shadows on the immediate wall, as the fish tank's own lights, like all the others, was out.",1],
-      ["PLAY", "theme13.mp3"],
+      ["PLAY", "theme13.ogg"],
       ["partialwall0000.png"],
       []
     ],
@@ -979,13 +979,13 @@
     ],
     "page22":[
       ["", "As he waited, he began to relax a bit and, inevitably, he was forced to reflect on what he saw in front of the fridge just a moment earlier there...",1],
-      ["STOP","theme13.mp3"],
+      ["STOP","theme13.ogg"],
       ["black.png"],
       []
     ],
     "page23":[
       ["", "An LED suit, of perfect bulb density. A hologram projected from some light source somewhere else in the room. A mirage of the fridge light. A total visual auditory hallucination. Maybe there was a carbon dioxide leak. Maybe the fear was warping his perceptions. Maybe he was dreaming, and still asleep upstairs.",1],
-      ["PLAY","theme1.wav"],
+      ["PLAY","theme1.ogg"],
       ["black.png"],
       []
     ],
@@ -1075,7 +1075,7 @@
     ],
     "page38":[
       ["", "\"Of course, the light must have been his surveillance equipment. Some little gadget he brought along but forgot to mention. The hand perhaps wasn't really a hand but some trick of the light in that moment, I was half-blinded while looking at it anyway. That might have even been him looking through the fridge for a snack in the middle of the night, the fat fuck. Wow I'm never going to let him hear the end of it, and once I tell him what I've been through he-\"",1],
-      ["STOP", "theme1.wav"],
+      ["STOP", "theme1.ogg"],
       ["black.png"],
       []
     ],

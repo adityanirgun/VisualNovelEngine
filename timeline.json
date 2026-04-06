@@ -2,8 +2,8 @@
         {
 		"page0":[
       [],
-			["PLAY", "theme3.mp3"],
-      ["000000.png"
+			["PLAY", "theme3.ogg"],
+      ["01000000.png"
     ],
       [],
       {},
@@ -19,7 +19,7 @@
       [
 
 
-        "000100.png"
+        "01000100.png"
 			],
       [
       ]
@@ -29,7 +29,7 @@
         [],
         [],
         [
-          "000200.png"
+          "01000200.png"
 
     ],
       [
@@ -41,10 +41,10 @@
     "page3":[
         ["",""],
         [
-          "STOP","theme3.mp3"
+          "STOP","theme3.ogg"
         ],
         [
-          "000300.png"
+          "01000300.png"
       ],
       [
 
@@ -56,7 +56,7 @@
         ["",""],
         [],
         [
-          "000400.png"
+          "01000400.png"
       ],
       [
 
@@ -68,7 +68,7 @@
         ["",""],
         [],
         [
-        "000500.png"
+        "01000500.png"
       ],
       [
 
@@ -79,7 +79,7 @@
 		"page6":[
       ["","",1],
       [],
-      ["000600.png"],
+      ["01000600.png"],
       []
   ]
   ,
@@ -88,7 +88,7 @@
       ["",""],
       [],
       [
-      "000700.png"
+      "01000700.png"
     ],
     [
 
@@ -100,7 +100,7 @@
       ["",""],
       [],
       [
-      "000800.png"
+      "01000800.png"
     ],
     [
 
@@ -112,7 +112,7 @@
       ["",""],
       [],
       [
-      "000900.png"
+      "01000900.png"
     ],
     [
 
@@ -124,7 +124,7 @@
       ["",""],
       [],
       [
-      "001000.png"
+      "01001000.png"
     ],
     [
 
@@ -136,7 +136,7 @@
       ["",""],
       [],
       [
-      "001100.png"
+      "01001100.png"
     ],
     [
 
@@ -145,8 +145,8 @@
   ],
   "page12":[
     ["","should not show",1],
-    ["STOP", "theme3.mp3"],
-    ["000600.png"],
+    ["STOP", "theme3.ogg"],
+    ["01000600.png"],
     []
 ]
 
@@ -154,9 +154,9 @@
 {
 		"page0":[
       ["","",0],
-      ["PLAY","audio1.mp3"],
+      ["PLAY","audio1.ogg"],
       [
-        "010000.png"
+        "01010000.png"
       ],
       [
 
@@ -167,7 +167,7 @@
       ["","Things were certainly different. "],
       ["",""],
       [
-        "010100.png"
+        "01010100.png"
       ],
       [
 
@@ -178,7 +178,7 @@
       ["",""],
       ["",""],
       [
-        "010200.png"
+        "01010200.png"
       ],
       []
   ]
@@ -188,7 +188,7 @@
       ["","He didn't recognize the state lines they had just crossed."],
       ["",""],
       [
-        "010300.png"
+        "01010300.png"
       ],
       []
   ]
@@ -198,7 +198,7 @@
     [],
     ["",""],
     [
-      "010400.png"
+      "01010400.png"
     ],
     []
 ]
@@ -208,7 +208,7 @@
   ["","Dizzying loss of reference that he seemed to never be able to get used to- \n this was just the latest example of world-shattering distractions that lay in his path like snares. ", 0],
   ["",""],
   [
-    "010500.png"
+    "01010500.png"
   ],
   []
 ]
@@ -218,7 +218,7 @@
   [],
   ["",""],
   [
-    "010600.png"
+    "01010600.png"
   ],
   []
 ]
@@ -228,7 +228,7 @@
   ["","Where was he? An incoherent furor of stimulation lay beyond the very immediate. Which right now was how the-",0],
   ["",""],
   [
-    "010700.png"
+    "01010700.png"
   ],
   []
 ]
@@ -238,14 +238,14 @@
   [],
   ["",""],
   [
-    "010800.png",
-    "010800.png",
-    "010801.png",
-    "010801.png",
-    "010802.png",
-    "010802.png",
-    "010803.png",
-    "010803.png"
+    "01010800.png",
+    "01010800.png",
+    "01010801.png",
+    "01010801.png",
+    "01010802.png",
+    "01010802.png",
+    "01010803.png",
+    "01010803.png"
   ],
   []
 ]
@@ -255,14 +255,14 @@
   ["","Muted blues and grays of the early morning streak by in a blur"],
   ["",""],
   [
-    "010800.png",
-    "010800.png",
-    "010801.png",
-    "010801.png",
-    "010802.png",
-    "010802.png",
-    "010803.png",
-    "010803.png"
+    "01010800.png",
+    "01010800.png",
+    "01010801.png",
+    "01010801.png",
+    "01010802.png",
+    "01010802.png",
+    "01010803.png",
+    "01010803.png"
   ],
   []
 ]
@@ -273,14 +273,14 @@
   ["","objects in the world closest to his perspective rush before him, like a river rapid of visual noise."],
   ["",""],
   [
-    "010800.png",
-    "010800.png",
-    "010801.png",
-    "010801.png",
-    "010802.png",
-    "010802.png",
-    "010803.png",
-    "010803.png"
+    "01010800.png",
+    "01010800.png",
+    "01010801.png",
+    "01010801.png",
+    "01010802.png",
+    "01010802.png",
+    "01010803.png",
+    "01010803.png"
   ],
   []
 ]
@@ -290,14 +290,14 @@
   ["","Micromovements of his eyes follow them before they are whipped away, sucked into the past, not completely identifiable during their stay- fence posts, trees, grasses, they all take on an unrealized quality in the unceasing motion."],
   ["",""],
   [
-    "010900.png",
-    "010900.png",
-    "010901.png",
-    "010901.png",
-    "010902.png",
-    "010902.png",
-    "010903.png",
-    "010903.png"
+    "01010900.png",
+    "01010900.png",
+    "01010901.png",
+    "01010901.png",
+    "01010902.png",
+    "01010902.png",
+    "01010903.png",
+    "01010903.png"
   ],
   []
 ]
@@ -306,14 +306,14 @@
   ["","But if he tries, if he really tries, he can start to see more and more of the details of the landscape by slowing down time. If he keeps trying he might... he might..."],
   ["",""],
   [
-    "011000.png",
-    "011000.png",
-    "011001.png",
-    "011001.png",
-    "011002.png",
-    "011002.png",
-    "011003.png",
-    "011003.png"
+    "01011000.png",
+    "01011000.png",
+    "01011001.png",
+    "01011001.png",
+    "01011002.png",
+    "01011002.png",
+    "01011003.png",
+    "01011003.png"
   ],
   []
 ]
@@ -322,14 +322,14 @@
   [],
   ["",""],
   [
-    "011100.png",
-    "011100.png",
-    "011101.png",
-    "011101.png",
-    "011102.png",
-    "011102.png",
-    "011103.png",
-    "011103.png"
+    "01011100.png",
+    "01011100.png",
+    "01011101.png",
+    "01011101.png",
+    "01011102.png",
+    "01011102.png",
+    "01011103.png",
+    "01011103.png"
   ],
   []
 ]
@@ -338,14 +338,14 @@
   [],
   ["",""],
   [
-    "011200.png",
-    "011200.png",
-    "011201.png",
-    "011201.png",
-    "011202.png",
-    "011202.png",
-    "011203.png",
-    "011203.png"
+    "01011200.png",
+    "01011200.png",
+    "01011201.png",
+    "01011201.png",
+    "01011202.png",
+    "01011202.png",
+    "01011203.png",
+    "01011203.png"
   ],
   []
 ]
@@ -370,7 +370,7 @@
 ,
 "page17":[
   ["","...he might end up having an episode. ", 1],
-  ["STOP", "audio1.mp3"],
+  ["STOP", "audio1.ogg"],
   [
     "black.png"
   ],
@@ -394,7 +394,7 @@
 "page20":[
   [],
   [],
-  ["011300.png", "011300.png", "011301.png", "011301.png", "011302.png", "011302.png", "011303.png", "011303.png", "011304.png", "011304.png", "011305.png", "011305.png", "011306.png", "011306.png", "011307.png", "011307.png", "011308.png", "011308.png", "011309.png", "011309.png", "011310.png", "011310.png", "011311.png", "011311.png", "011312.png", "011312.png", "011313.png", "011313.png", "011314.png", "011314.png", "011315.png", "011315.png"]
+  ["01011300.png", "01011300.png", "01011301.png", "01011301.png", "01011302.png", "01011302.png", "01011303.png", "01011303.png", "01011304.png", "01011304.png", "01011305.png", "01011305.png", "01011306.png", "01011306.png", "01011307.png", "01011307.png", "01011308.png", "01011308.png", "01011309.png", "01011309.png", "01011310.png", "01011310.png", "01011311.png", "01011311.png", "01011312.png", "01011312.png", "01011313.png", "01011313.png", "01011314.png", "01011314.png", "01011315.png", "01011315.png"]
 
 ,
   []
@@ -404,7 +404,7 @@
 "page21":[
   ["",""],
   ["",""],
-  ["011400.png", "011400.png", "011401.png", "011401.png", "011402.png", "011402.png", "011403.png", "011403.png", "011404.png", "011404.png", "011405.png", "011405.png", "011406.png", "011406.png", "011407.png", "011407.png", "011408.png", "011408.png", "011409.png", "011409.png", "011410.png", "011410.png", "011411.png", "011411.png", "011412.png", "011412.png"]
+  ["01011400.png", "01011400.png", "01011401.png", "01011401.png", "01011402.png", "01011402.png", "01011403.png", "01011403.png", "01011404.png", "01011404.png", "01011405.png", "01011405.png", "01011406.png", "01011406.png", "01011407.png", "01011407.png", "01011408.png", "01011408.png", "01011409.png", "01011409.png", "01011410.png", "01011410.png", "01011411.png", "01011411.png", "01011412.png", "01011412.png"]
 ,
   []
 ]
@@ -412,7 +412,7 @@
 "page22":[["",""],[],["white.png"],[]],
 "page23":[
   ["","The body settles but the mind stews. Confusion lay ahead like a storm off the coast before landfall.",0],
-  ["PLAY", "audio2.mp3"],
+  ["PLAY", "audio2.ogg"],
   [
     "white.png"
 
@@ -422,20 +422,20 @@
 "page24":[
   ["",""],
   [],
-  ["011600.png", "011600.png", "011601.png", "011601.png", "011602.png", "011602.png", "011603.png", "011603.png"]
+  ["01011600.png", "01011600.png", "01011601.png", "01011601.png", "01011602.png", "01011602.png", "01011603.png", "01011603.png"]
 ,
   []
 ],
 "page25":[
   ["","Little flecks of information sustained him",0],
   [],
-["011600.png", "011600.png", "011601.png", "011601.png", "011602.png", "011602.png", "011603.png", "011603.png"],
+["01011600.png", "01011600.png", "01011601.png", "01011601.png", "01011602.png", "01011602.png", "01011603.png", "01011603.png"],
   []
 ],
 "page26":[
   [],
   [],
-  ["011500.png", "011500.png", "011501.png", "011501.png", "011502.png", "011502.png", "011503.png", "011503.png", "011504.png", "011504.png"]
+  ["01011500.png", "01011500.png", "01011501.png", "01011501.png", "01011502.png", "01011502.png", "01011503.png", "01011503.png", "01011504.png", "01011504.png"]
 ,
   []
 ],
@@ -443,49 +443,49 @@
 "page27":[
   [""," 'Issa new city... or no just a place, a different kind of place than a city. They called it penitentiary but theres other stuff too. I would call it the \"Inside\" I think' ",0],
   [],
-  ["011500.png", "011500.png", "011501.png", "011501.png", "011502.png", "011502.png", "011503.png", "011503.png", "011504.png", "011504.png"]
+  ["01011500.png", "01011500.png", "01011501.png", "01011501.png", "01011502.png", "01011502.png", "01011503.png", "01011503.png", "01011504.png", "01011504.png"]
 ,
   []
 ],
 "page28":[
   ["", "What he means is, we are heading to a location where, in record time, a fortress-like compound was erected - one with enough infrastructure to support the inhabitants of a small city. The tension that had built over the last few days sat in his gut like something corrosive and the toxicity was building as the distance between him and the city closed in."],
   [],
-  ["011500.png", "011500.png", "011501.png", "011501.png", "011502.png", "011502.png", "011503.png", "011503.png", "011504.png", "011504.png"]
+  ["01011500.png", "01011500.png", "01011501.png", "01011501.png", "01011502.png", "01011502.png", "01011503.png", "01011503.png", "01011504.png", "01011504.png"]
 ,
   []
 ],
 "page29":[
   [],
   [],
-  ["011500.png", "011500.png", "011501.png", "011501.png", "011502.png", "011502.png", "011503.png", "011503.png", "011504.png", "011504.png"]
+  ["01011500.png", "01011500.png", "01011501.png", "01011501.png", "01011502.png", "01011502.png", "01011503.png", "01011503.png", "01011504.png", "01011504.png"]
 ,
   []
 ],
 "page30":[
   ["", "In times like these he had one infallible strategy.",0],
   [],
-  ["011500.png", "011500.png", "011501.png", "011501.png", "011502.png", "011502.png", "011503.png", "011503.png", "011504.png", "011504.png"]
+  ["01011500.png", "01011500.png", "01011501.png", "01011501.png", "01011502.png", "01011502.png", "01011503.png", "01011503.png", "01011504.png", "01011504.png"]
 ,
   []
 ],
 "page31":[
   ["","He opens his eyes and tries to focus them-"],
   [],
-  ["011500.png", "011500.png", "011501.png", "011501.png", "011502.png", "011502.png", "011503.png", "011503.png", "011504.png", "011504.png"]
+  ["01011500.png", "01011500.png", "01011501.png", "01011501.png", "01011502.png", "01011502.png", "01011503.png", "01011503.png", "01011504.png", "01011504.png"]
 ,
   []
 ],
 "page32":[
   ["", "Like a tuned adjustment of my microscope's blurred focus, primordial things began to take shape in front of him."],
   [],
-  ["011500.png", "011500.png", "011501.png", "011501.png", "011502.png", "011502.png", "011503.png", "011503.png", "011504.png", "011504.png"]
+  ["01011500.png", "01011500.png", "01011501.png", "01011501.png", "01011502.png", "01011502.png", "01011503.png", "01011503.png", "01011504.png", "01011504.png"]
 ,
   []
 ],
 "page33":[
   ["","The sky behind the clouds. The clouds parting, create an intricate space within themselves, a projection screen backdrop to a theater, with chariots and horses leaping forth in a garden of gold."],
   [],
-  ["010000.png"]
+  ["01010000.png"]
 ,
   []
 ]
@@ -493,7 +493,7 @@
 "page34":[
   ["","Larger terraced structures of layered hexagonal plates project wisps like arched bridge connections between smaller cloud towers. The cornices atop these towers glowed like gold, carved faces of chieftains highlighted by the rising sun of the east."],
   [],
-  ["010000.png"]
+  ["01010000.png"]
 ,
   []
 ]
@@ -501,7 +501,7 @@
 "page35":[
   ["","From cracks in the vast grey dome overhead light pours forth onto the land"],
   [],
-  ["010000.png"]
+  ["01010000.png"]
 ,
   []
 ]
@@ -509,7 +509,7 @@
 "page36":[
   ["","Below, fields of grass, where illuminated, shiver with life in the gentle wind."],
   [],
-["010000.png"]
+["01010000.png"]
 ,
   []
 ]
@@ -517,7 +517,7 @@
 "page37":[
   ["","Though it couldn't be felt by him from behind the glass, the sun's warmth, its distance from the earth, creates the environment grasses need to exist, while the grasses tame the soil to allow for foods a mammal like himself relies on. Earth's complex soupy biosphere in its entirety was secretly responsible for the humble beauty of the view before him."],
   [],
-  ["010000.png"]
+  ["01010000.png"]
 ,
   []
 ]
@@ -533,49 +533,49 @@
 "page39":[
   ["","It wasn't something he could express with his own thoughts, his simple vocabulary, his limited read knowledge."],
   [],
-  ["011500.png", "011500.png", "011501.png", "011501.png", "011502.png", "011502.png", "011503.png", "011503.png", "011504.png", "011504.png"]
+  ["01011500.png", "01011500.png", "01011501.png", "01011501.png", "01011502.png", "01011502.png", "01011503.png", "01011503.png", "01011504.png", "01011504.png"]
 ,
   []
 ],
 "page40":[
   ["","Like water in a balloon, the feeling of the thought stretches his mind to its limit. Like a hand in glove, familiar while inundating. He wasn't sure whether the wave of emotion was emerging from within him or whether he was approaching the source from the outside but he was helpless to stop the flow or change course."],
   [],
-  ["011500.png", "011500.png", "011501.png", "011501.png", "011502.png", "011502.png", "011503.png", "011503.png", "011504.png", "011504.png"]
+  ["01011500.png", "01011500.png", "01011501.png", "01011501.png", "01011502.png", "01011502.png", "01011503.png", "01011503.png", "01011504.png", "01011504.png"]
 ,
   []
 ],
 "page41":[
   ["",""],
   [],
-  ["011500.png", "011500.png", "011501.png", "011501.png", "011502.png", "011502.png", "011503.png", "011503.png", "011504.png", "011504.png"]
+  ["01011500.png", "01011500.png", "01011501.png", "01011501.png", "01011502.png", "01011502.png", "01011503.png", "01011503.png", "01011504.png", "01011504.png"]
 ,
   []
 ],
 "page42":[
   ["",""],
   [],
-  ["011400.png", "011400.png", "011401.png", "011401.png", "011402.png", "011402.png", "011403.png", "011403.png", "011404.png", "011404.png", "011405.png", "011405.png", "011406.png", "011406.png", "011407.png", "011407.png", "011408.png", "011408.png", "011409.png", "011409.png", "011410.png", "011410.png", "011411.png", "011411.png", "011412.png", "011412.png"]
+  ["01011400.png", "01011400.png", "01011401.png", "01011401.png", "01011402.png", "01011402.png", "01011403.png", "01011403.png", "01011404.png", "01011404.png", "01011405.png", "01011405.png", "01011406.png", "01011406.png", "01011407.png", "01011407.png", "01011408.png", "01011408.png", "01011409.png", "01011409.png", "01011410.png", "01011410.png", "01011411.png", "01011411.png", "01011412.png", "01011412.png"]
 ,
   []
 ],
 "page43":[
   ["","Chugging grinding noises underneath him fill the air of the cabin like a menacing viscous medium through which he was trying to hear one specific sound. It was the unwrapping of some candy by a child seated nearby.", 0],
   [],
-  ["011400.png", "011400.png", "011401.png", "011401.png", "011402.png", "011402.png", "011403.png", "011403.png", "011404.png", "011404.png", "011405.png", "011405.png", "011406.png", "011406.png", "011407.png", "011407.png", "011408.png", "011408.png", "011409.png", "011409.png", "011410.png", "011410.png", "011411.png", "011411.png", "011412.png", "011412.png"]
+  ["01011400.png", "01011400.png", "01011401.png", "01011401.png", "01011402.png", "01011402.png", "01011403.png", "01011403.png", "01011404.png", "01011404.png", "01011405.png", "01011405.png", "01011406.png", "01011406.png", "01011407.png", "01011407.png", "01011408.png", "01011408.png", "01011409.png", "01011409.png", "01011410.png", "01011410.png", "01011411.png", "01011411.png", "01011412.png", "01011412.png"]
 ,
   []
 ],
 "page44":[
   ["","It was a persistent crinkling annoying sound even over the din of the train car speeding along on metal rails.", 0],
   [],
-  ["011400.png", "011400.png", "011401.png", "011401.png", "011402.png", "011402.png", "011403.png", "011403.png", "011404.png", "011404.png", "011405.png", "011405.png", "011406.png", "011406.png", "011407.png", "011407.png", "011408.png", "011408.png", "011409.png", "011409.png", "011410.png", "011410.png", "011411.png", "011411.png", "011412.png", "011412.png"]
+  ["01011400.png", "01011400.png", "01011401.png", "01011401.png", "01011402.png", "01011402.png", "01011403.png", "01011403.png", "01011404.png", "01011404.png", "01011405.png", "01011405.png", "01011406.png", "01011406.png", "01011407.png", "01011407.png", "01011408.png", "01011408.png", "01011409.png", "01011409.png", "01011410.png", "01011410.png", "01011411.png", "01011411.png", "01011412.png", "01011412.png"]
 ,
   []
 ],
 "page45":[
   ["","He leaned into the noise of the wrapper, letting the sharp tones buffet his consciousness with an uncomfortable skin-crawling feeling that kept him wide awake", 0],
   [],
-  ["011400.png", "011400.png", "011401.png", "011401.png", "011402.png", "011402.png", "011403.png", "011403.png", "011404.png", "011404.png", "011405.png", "011405.png", "011406.png", "011406.png", "011407.png", "011407.png", "011408.png", "011408.png", "011409.png", "011409.png", "011410.png", "011410.png", "011411.png", "011411.png", "011412.png", "011412.png"]
+  ["01011400.png", "01011400.png", "01011401.png", "01011401.png", "01011402.png", "01011402.png", "01011403.png", "01011403.png", "01011404.png", "01011404.png", "01011405.png", "01011405.png", "01011406.png", "01011406.png", "01011407.png", "01011407.png", "01011408.png", "01011408.png", "01011409.png", "01011409.png", "01011410.png", "01011410.png", "01011411.png", "01011411.png", "01011412.png", "01011412.png"]
 ,
   []
 ],
@@ -602,36 +602,36 @@
 ],
 "page49":[
   ["", "But we've already come so far. If there was a threat on board they would have had the opportunity to execute their plot with no interference from the outside world over the course of this entire journey. They haven't made a single move. But even if they did, remaining undetected only came down to a couple things, since they probably wouldn't know who or what they were looking for."],
-  ["STOP", "audio2.mp3"],
+  ["STOP", "audio2.ogg"],
     ["black.png"]
 ,
   []
 ],
 "page50":[
   ["", "He was overthinking it - every was fine right now. He's made it on the train and he's heading forward, into the future, into his future.", 1],
-  ["PLAY", "theme1.wav"],
-    ["020500.png"]
+  ["PLAY", "theme1.ogg"],
+    ["01020500.png"]
 ,
   []
 ],
 "page51":[
   ["", "", 0],
   [],
-      ["011600.png", "011600.png", "011601.png", "011601.png", "011602.png", "011602.png", "011603.png", "011603.png"]
+      ["01011600.png", "01011600.png", "01011601.png", "01011601.png", "01011602.png", "01011602.png", "01011603.png", "01011603.png"]
 ,
   []
 ],
 "page52":[
   ["", ""],
   [],
-      ["011500.png", "011500.png", "011501.png", "011501.png", "011502.png", "011502.png", "011503.png", "011503.png", "011504.png", "011504.png"]
+      ["01011500.png", "01011500.png", "01011501.png", "01011501.png", "01011502.png", "01011502.png", "01011503.png", "01011503.png", "01011504.png", "01011504.png"]
 ,
   []
 ],
 "page53":[
   ["", ""],
   [],
-  ["011700.png", "011700.png", "011701.png", "011701.png", "011702.png", "011702.png", "011703.png", "011703.png", "011704.png", "011704.png"]
+  ["01011700.png", "01011700.png", "01011701.png", "01011701.png", "01011702.png", "01011702.png", "01011703.png", "01011703.png", "01011704.png", "01011704.png"]
 
 ,
   []
@@ -639,28 +639,28 @@
 "page54":[
   ["", ""],
   [],
-      ["011800.png", "011800.png", "011801.png", "011801.png","011800.png", "011800.png", "011801.png", "011801.png","011902.png"]
+      ["01011800.png", "01011800.png", "01011801.png", "01011801.png","01011800.png", "01011800.png", "01011801.png", "01011801.png","01011902.png"]
 ,
   []
 ],
 "page55":[
   ["", ""],
   [],
-      ["011900.png", "011900.png", "011901.png", "011901.png", "011900.png", "011900.png", "011901.png", "011901.png","011902.png"]
+      ["01011900.png", "01011900.png", "01011901.png", "01011901.png", "01011900.png", "01011900.png", "01011901.png", "01011901.png","01011902.png"]
 ,
   []
 ],
 "page56":[
   ["", ""],
   [],
-      ["012000.png", "012000.png", "012001.png", "012001.png"]
+      ["01012000.png", "01012000.png", "01012001.png", "01012001.png"]
 ,
   []
 ],
 "page57":[
   ["","should not show",1],
   [],
-  ["000600.png"],
+  ["0101000600.png"],
   []
 ]
 
@@ -670,16 +670,16 @@
     ["","",0],
     ["",""],
     [
-      "020000.png",
-      "020000.png",
-      "020000.png",
-      "020000.png",
-      "020000.png",
-      "020000.png",
-      "020000.png",
-      "020000.png",
-      "020001.png",
-      "020001.png"
+      "01020000.png",
+      "01020000.png",
+      "01020000.png",
+      "01020000.png",
+      "01020000.png",
+      "01020000.png",
+      "01020000.png",
+      "01020000.png",
+      "01020001.png",
+      "01020001.png"
     ],
     [
 
@@ -690,16 +690,16 @@
   ["", "\"Oooh this might be the one.\"",1],
   [],
   [
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020001.png",
-    "020001.png"
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020001.png",
+    "01020001.png"
   ]
 ,
   []
@@ -708,16 +708,16 @@
   ["", "\"Enjoying your time so far? We're barely getting started. Twists, turns, suspense, every time is just like the first time\""],
   [],
   [
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020001.png",
-    "020001.png"
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020001.png",
+    "01020001.png"
   ]
 ,
   []
@@ -733,16 +733,16 @@
   ["", "\"Unfortunately for me. there IS something coming...\"",1],
   [],
   [
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020000.png",
-    "020001.png",
-    "020001.png"
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020000.png",
+    "01020001.png",
+    "01020001.png"
   ]
 ,
   []
@@ -751,7 +751,7 @@
   ["", "\"I've been going on for long enough let's hear from better half, the angel on the other shoulder-\"",0],
   [],
   [
-    "020100.png"
+    "01020100.png"
   ]
 ,
   []
@@ -760,7 +760,7 @@
   ["", "",0],
   [],
   [
-    "020200.png"
+    "01020200.png"
   ]
 ,
   []
@@ -769,22 +769,22 @@
   ["", ""],
   [],
   [
-    "020300.png",
-    "020300.png",
-    "020300.png",
-    "020300.png",
-    "020301.png",
-    "020301.png",
-    "020301.png",
-    "020301.png",
-    "020302.png",
-    "020302.png",
-    "020302.png",
-    "020302.png",
-    "020303.png",
-    "020303.png",
-    "020303.png",
-    "020303.png"
+    "01020300.png",
+    "01020300.png",
+    "01020300.png",
+    "01020300.png",
+    "01020301.png",
+    "01020301.png",
+    "01020301.png",
+    "01020301.png",
+    "01020302.png",
+    "01020302.png",
+    "01020302.png",
+    "01020302.png",
+    "01020303.png",
+    "01020303.png",
+    "01020303.png",
+    "01020303.png"
   ]
 ,
   []
@@ -793,7 +793,7 @@
   ["", "\"Alright that's enough of that.\"", 0],
   [],
   [
-    "020100.png"
+    "01020100.png"
   ]
 ,
   []
@@ -801,28 +801,28 @@
 "page9":[
   ["", ""],
   [],
-  ["020400.png", "020400.png", "020400.png", "020401.png", "020401.png", "020401.png", "020402.png", "020402.png", "020402.png", "020403.png", "020403.png", "020403.png"]
+  ["01020400.png", "01020400.png", "01020400.png", "01020401.png", "01020401.png", "01020401.png", "01020402.png", "01020402.png", "01020402.png", "01020403.png", "01020403.png", "01020403.png"]
 ,
   []
 ],
 "page10":[
   ["", "\"Look, you can ignore all this but we're the only ones that know what's coming. You'll need us both for what's coming, trust me...\"", 0],
   [],
-    ["020400.png", "020400.png", "020400.png", "020401.png", "020401.png", "020401.png", "020402.png", "020402.png", "020402.png", "020403.png", "020403.png", "020403.png"]
+    ["01020400.png", "01020400.png", "01020400.png", "01020401.png", "01020401.png", "01020401.png", "01020402.png", "01020402.png", "01020402.png", "01020403.png", "01020403.png", "01020403.png"]
 ,
   []
 ],
 "page11":[
   ["", "\"We'll leave you that to think about...\"", 0],
-  ["STOP","theme1.wav"],
-  ["020500.png"]
+  ["STOP","theme1.ogg"],
+  ["01020500.png"]
 ,
   []
 ],
 "page12":[
   ["", ""],
   [],
-  ["020600.png", "020600.png", "020601.png", "020601.png", "020602.png", "020602.png", "020603.png", "020603.png", "020604.png", "020604.png", "020605.png", "020605.png", "020604.png", "020604.png", "020605.png", "020605.png","020604.png", "020604.png","020605.png", "020605.png","020604.png", "020604.png", "020605.png", "020604.png", "black.png", "black.png","black.png","black.png"]
+  ["01020600.png", "01020600.png", "01020601.png", "01020601.png", "01020602.png", "01020602.png", "01020603.png", "01020603.png", "01020604.png", "01020604.png", "01020605.png", "01020605.png", "01020604.png", "01020604.png", "01020605.png", "01020605.png","01020604.png", "01020604.png","01020605.png", "01020605.png","01020604.png", "01020604.png", "01020605.png", "01020604.png", "black.png", "black.png","black.png","black.png"]
 
 ,
   []
@@ -831,12 +831,12 @@
   ["", ""],
   [],
   [
-  "020700.png", "020700.png", "020701.png", "020701.png", "020702.png", "020702.png", "020703.png", "020703.png", "020704.png", "020704.png",
-  "020705.png", "020705.png", "020706.png", "020706.png", "020707.png", "020707.png", "020708.png", "020708.png","020708.png", "020708.png", "020709.png", "020709.png","020709.png", "020709.png",
-  "020710.png", "020710.png","020710.png", "020710.png","020710.png", "020710.png","020710.png", "020710.png", "020711.png", "020711.png", "020712.png", "020712.png", "020713.png", "020713.png", "020714.png", "020714.png",
-  "020715.png", "020715.png", "020716.png", "020716.png", "020717.png", "020717.png", "020718.png", "020718.png", "020719.png", "020719.png",
-  "020720.png", "020720.png", "020721.png", "020721.png", "020722.png", "020722.png","020722.png", "020722.png", "020723.png", "020723.png", "020723.png", "020723.png","020724.png", "020724.png","020724.png", "020724.png","020725.png", "020725.png",
-  "020725.png", "020725.png", "020726.png", "020726.png","020726.png", "020726.png","020726.png", "020726.png","020726.png", "020726.png", "020727.png", "020727.png", "020728.png", "020728.png", "020729.png", "020729.png"
+  "01020700.png", "01020700.png", "01020701.png", "01020701.png", "01020702.png", "01020702.png", "01020703.png", "01020703.png", "01020704.png", "01020704.png",
+  "01020705.png", "01020705.png", "01020706.png", "01020706.png", "01020707.png", "01020707.png", "01020708.png", "01020708.png","01020708.png", "01020708.png", "01020709.png", "01020709.png","01020709.png", "01020709.png",
+  "01020710.png", "01020710.png","01020710.png", "01020710.png","01020710.png", "01020710.png","01020710.png", "01020710.png", "01020711.png", "01020711.png", "01020712.png", "01020712.png", "01020713.png", "01020713.png", "01020714.png", "01020714.png",
+  "01020715.png", "01020715.png", "01020716.png", "01020716.png", "01020717.png", "01020717.png", "01020718.png", "01020718.png", "01020719.png", "01020719.png",
+  "01020720.png", "01020720.png", "01020721.png", "01020721.png", "01020722.png", "01020722.png","01020722.png", "01020722.png", "01020723.png", "01020723.png", "01020723.png", "01020723.png","01020724.png", "01020724.png","01020724.png", "01020724.png","01020725.png", "01020725.png",
+  "01020725.png", "01020725.png", "01020726.png", "01020726.png","01020726.png", "01020726.png","01020726.png", "01020726.png","01020726.png", "01020726.png", "01020727.png", "01020727.png", "01020728.png", "01020728.png", "01020729.png", "01020729.png"
 ]
 
 ,
@@ -852,7 +852,7 @@
 "page15":[
   ["", ""],
   [],
-  ["black.png","012100.png", "012100.png", "012101.png", "012101.png", "012102.png", "012102.png", "012103.png", "012103.png", "012104.png", "012104.png", "012105.png", "012105.png", "012106.png", "012106.png", "012107.png", "012107.png", "012108.png", "012108.png", "012109.png", "012109.png", "012110.png", "012110.png", "black.png"]
+  ["black.png","01012100.png", "01012100.png", "01012101.png", "01012101.png", "01012102.png", "01012102.png", "01012103.png", "01012103.png", "01012104.png", "01012104.png", "01012105.png", "01012105.png", "01012106.png", "01012106.png", "01012107.png", "01012107.png", "01012108.png", "01012108.png", "01012109.png", "01012109.png", "01012110.png", "01012110.png", "black.png"]
 
 ,
   []
@@ -860,7 +860,7 @@
 "page16":[
   ["", ""],
   [],
-  ["012200.png", "012200.png", "012201.png", "012201.png", "012202.png", "012202.png", "012203.png", "012203.png", "012204.png", "012204.png", "012205.png", "012205.png", "012206.png", "012206.png", "012207.png", "012207.png", "012208.png", "012208.png", "012209.png", "012209.png", "012210.png", "012210.png"]
+  ["01012200.png", "01012200.png", "01012201.png", "01012201.png", "01012202.png", "01012202.png", "01012203.png", "01012203.png", "01012204.png", "01012204.png", "01012205.png", "01012205.png", "01012206.png", "01012206.png", "01012207.png", "01012207.png", "01012208.png", "01012208.png", "01012209.png", "01012209.png", "01012210.png", "01012210.png"]
 
 ,
   []
@@ -868,7 +868,7 @@
 "page17":[
   ["", ""],
   [],
-  ["012206.png", "012206.png", "012207.png", "012207.png", "012208.png", "012208.png", "012209.png", "012209.png", "012210.png", "012210.png"]
+  ["01012206.png", "01012206.png", "01012207.png", "01012207.png", "01012208.png", "01012208.png", "01012209.png", "01012209.png", "01012210.png", "01012210.png"]
 
 ,
   []
@@ -883,35 +883,35 @@
 "page19":[
   ["", ""],
   [],
-  ["020800.png", "020800.png","020800.png", "020800.png", "020801.png", "020801.png","020801.png", "020801.png", "020802.png", "020802.png", "020802.png", "020802.png"]
+  ["01020800.png", "01020800.png","01020800.png", "01020800.png", "01020801.png", "01020801.png","01020801.png", "01020801.png", "01020802.png", "01020802.png", "01020802.png", "01020802.png"]
 ,
   []
 ],
 "page20":[
   ["", ""],
   [],
-  ["020900.png"]
+  ["01020900.png"]
 ,
   []
 ],
 "page21":[
   ["", "The elder next to him is talking to him about how due to his condition the other boys will always look down on him. He'll be a symbol for them of everything wrong with the world. Gut reaction to weakness, a weakness they see in themselves more than anything.", 1],
   [],
-  ["020900.png"]
+  ["01020900.png"]
 ,
   []
 ],
 "page22":[
   ["", "It is mostly the elder's own feelings and memories from the distant past, the difficulties that made him who he was today. Difficulties that forged his relationship to the Order as well. He was trying to offer him some solace, some hope, and sympathy while also trying to instill the notion of gratitude for the opportunity to learn as he did. You, especially, would need all the strength and resilience you could get."],
   [],
-  ["020800.png", "020800.png","020800.png", "020800.png", "020801.png", "020801.png","020801.png", "020801.png", "020802.png", "020802.png", "020802.png", "020802.png"]
+  ["01020800.png", "01020800.png","01020800.png", "01020800.png", "01020801.png", "01020801.png","01020801.png", "01020801.png", "01020802.png", "01020802.png", "01020802.png", "01020802.png"]
 ,
   []
 ],
 "page23":[
   ["", "We can never remember his exact words can we?"],
   [],
-  ["020800.png", "020800.png","020800.png", "020800.png", "020801.png", "020801.png","020801.png", "020801.png", "020802.png", "020802.png", "020802.png", "020802.png"]
+  ["01020800.png", "01020800.png","01020800.png", "01020800.png", "01020801.png", "01020801.png","01020801.png", "01020801.png", "01020802.png", "01020802.png", "01020802.png", "01020802.png"]
 ,
   []
 ],
@@ -925,28 +925,28 @@
 "page25":[
   ["", ""],
   [],
-  ["021000.png"]
+  ["01021000.png"]
 ,
   []
 ],
 "page26":[
   ["", ""],
   [],
-  ["021100.png"]
+  ["01021100.png"]
 ,
   []
 ],
 "page27":[
   ["", ""],
   [],
-  ["021200.png","021200.png","021201.png","021201.png","021200.png","021200.png","021200.png","021200.png","021200.png","021200.png"]
+  ["01021200.png","01021200.png","01021201.png","01021201.png","01021200.png","01021200.png","01021200.png","01021200.png","01021200.png","01021200.png"]
 ,
   []
 ],
 "page28":[
   ["", ""],
   [],
-  ["021300.png", "021300.png", "021301.png", "021301.png", "021300.png", "021300.png", "021300.png", "021300.png", "021300.png", "021300.png"]
+  ["01021300.png", "01021300.png", "01021301.png", "01021301.png", "01021300.png", "01021300.png", "01021300.png", "01021300.png", "01021300.png", "01021300.png"]
 ,
   []
 ],
@@ -954,11 +954,11 @@
   ["", ""],
   [],
   [
-  "021400.png", "021400.png",
-  "021401.png", "021401.png",
-  "021400.png", "021400.png",
-  "021400.png", "021400.png",
-  "021400.png", "021400.png"
+  "01021400.png", "01021400.png",
+  "01021401.png", "01021401.png",
+  "01021400.png", "01021400.png",
+  "01021400.png", "01021400.png",
+  "01021400.png", "01021400.png"
 ]
 ,
   []
@@ -967,11 +967,11 @@
   ["", ""],
   [],
   [
-  "021500.png", "021500.png",
-  "021501.png", "021501.png",
-  "021500.png", "021500.png",
-  "021500.png", "021500.png",
-  "021500.png", "021500.png"
+  "01021500.png", "01021500.png",
+  "01021501.png", "01021501.png",
+  "01021500.png", "01021500.png",
+  "01021500.png", "01021500.png",
+  "01021500.png", "01021500.png"
 ]
 ,
   []
@@ -979,45 +979,45 @@
 "page31":[
   ["", ""],
   [],
-  ["021600.png"]
+  ["01021600.png"]
 ,
   []
 ],
 "page32":[
   ["", ""],
   [],
-  ["021700.png"]
+  ["01021700.png"]
 ,
   []
 ],
 "page33":[
   ["", ""],
   [],
-  ["021800.png"]
+  ["01021800.png"]
 ,
   []
 ],
 "page34":[
   ["", ""],
   [],
-  ["021900.png"]
+  ["01021900.png"]
 ,
   []
 ],
 "page35":[
   ["", ""],
   [],
-  ["022200.png"]
+  ["01022200.png"]
 ,
   []
 ],
 "page36":[
   ["", ""],
   [],
-  ["022100.png","022100.png",
-    "022100.png","022100.png",
-    "022100.png","022100.png",
-    "022101.png","022101.png"
+  ["01022100.png","01022100.png",
+    "01022100.png","01022100.png",
+    "01022100.png","01022100.png",
+    "01022101.png","01022101.png"
   ]
 ,
   []
@@ -1025,79 +1025,79 @@
 "page37":[
   ["", ""],
   [],
-  ["021900.png"]
+  ["01021900.png"]
 ,
   []
 ],
 "page38":[
   ["", ""],
   [],
-  ["022000.png"]
+  ["01022000.png"]
 ,
   []
 ],
 "page39":[
   ["", ""],
   [],
-  ["022300.png","022300.png","022301.png","022301.png"]
+  ["01022300.png","01022300.png","01022301.png","01022301.png"]
 ,
   []
 ],
   "page40": [["", ""], [], ["black.png"], []],
-  "page41": [["", ""], [], ["022400.png"], []],
-  "page42": [["", ""], [], ["022500.png"], []],
-  "page43": [["", ""], [], ["022600.png"], []],
-  "page44": [["", ""], [], ["022700.png"], []],
-  "page45": [["", ""], [], ["022800.png"], []],
+  "page41": [["", ""], [], ["01022400.png"], []],
+  "page42": [["", ""], [], ["01022500.png"], []],
+  "page43": [["", ""], [], ["01022600.png"], []],
+  "page44": [["", ""], [], ["01022700.png"], []],
+  "page45": [["", ""], [], ["01022800.png"], []],
   "page46": [["", ""], [], [
-    "022900.png","022900.png","022900.png","022900.png","022900.png","022900.png",
-    "022901.png","022901.png","022902.png","022902.png","022903.png","022903.png",
-    "022904.png","022904.png","022905.png","022905.png"
+    "01022900.png","01022900.png","01022900.png","01022900.png","01022900.png","01022900.png",
+    "01022901.png","01022901.png","01022902.png","01022902.png","01022903.png","01022903.png",
+    "01022904.png","01022904.png","01022905.png","01022905.png"
   ], []],
-  "page47": [["", ""], [], ["023000.png"], []],
-  "page48": [["", ""], [], ["023100.png"], []],
-  "page49": [["", ""], [], ["023200.png"], []],
-  "page50": [["", ""], [], ["023300.png"], []],
-  "page51": [["", ""], [], ["023400.png"], []],
+  "page47": [["", ""], [], ["01023000.png"], []],
+  "page48": [["", ""], [], ["01023100.png"], []],
+  "page49": [["", ""], [], ["01023200.png"], []],
+  "page50": [["", ""], [], ["01023300.png"], []],
+  "page51": [["", ""], [], ["01023400.png"], []],
   "page52": [["", ""], [], ["white.png"], []],
-  "page53": [["", ""], [], ["023500.png"], []],
-  "page54": [["", ""], [], ["023600.png"], []],
-  "page55": [["", ""], [], ["023700.png"], []],
-  "page56": [["", ""], [], ["023800.png"], []],
-  "page57": [["", ""], [], ["023900.png", "023900.png", "023901.png", "023901.png"], []],
-  "page58": [["", ""], [], ["024000.png"], []],
-  "page59": [["","\"That was a fun little childhood memory now wasn't it?\""], [], ["024000.png"], []],
-  "page60": [["", "\"I bet you can still hear the train. You're not entirely asleep, I can tell. You're just doing that annoying thing you do\""], [], ["024000.png"], []],
+  "page53": [["", ""], [], ["01023500.png"], []],
+  "page54": [["", ""], [], ["01023600.png"], []],
+  "page55": [["", ""], [], ["01023700.png"], []],
+  "page56": [["", ""], [], ["01023800.png"], []],
+  "page57": [["", ""], [], ["01023900.png", "01023900.png", "01023901.png", "01023901.png"], []],
+  "page58": [["", ""], [], ["01024000.png"], []],
+  "page59": [["","\"That was a fun little childhood memory now wasn't it?\""], [], ["01024000.png"], []],
+  "page60": [["", "\"I bet you can still hear the train. You're not entirely asleep, I can tell. You're just doing that annoying thing you do\""], [], ["01024000.png"], []],
   "page61": [["", ""], [], ["black.png"], []],
   "page62": [["", ""], [], ["white.png"], []],
   "page63": [["", "\"Come on, I'm asking all nice here, let us back into your world...\"", 0], [], [
   "white.png", "white.png",
-  "024100.png", "024100.png",
-  "024101.png", "024101.png",
-  "024102.png", "024102.png",
-  "024103.png", "024103.png",
-  "024104.png", "024104.png",
-  "024105.png", "024105.png",
-  "024106.png", "024106.png",
-  "024107.png", "024107.png",
-  "024108.png", "024108.png",
-  "024109.png", "024109.png",
-  "024109.png", "024109.png",
-  "024108.png", "024108.png",
-  "024107.png", "024107.png",
-  "024106.png", "024106.png",
-  "024105.png", "024105.png",
-  "024104.png", "024104.png",
-  "024103.png", "024103.png",
-  "024102.png", "024102.png",
-  "024101.png", "024101.png",
-  "024100.png", "024100.png"
+  "01024100.png", "01024100.png",
+  "01024101.png", "01024101.png",
+  "01024102.png", "01024102.png",
+  "01024103.png", "01024103.png",
+  "01024104.png", "01024104.png",
+  "01024105.png", "01024105.png",
+  "01024106.png", "01024106.png",
+  "01024107.png", "01024107.png",
+  "01024108.png", "01024108.png",
+  "01024109.png", "01024109.png",
+  "01024109.png", "01024109.png",
+  "01024108.png", "01024108.png",
+  "01024107.png", "01024107.png",
+  "01024106.png", "01024106.png",
+  "01024105.png", "01024105.png",
+  "01024104.png", "01024104.png",
+  "01024103.png", "01024103.png",
+  "01024102.png", "01024102.png",
+  "01024101.png", "01024101.png",
+  "01024100.png", "01024100.png"
 ], []
 ],
 "page64":[
   ["","should not show",1],
   [],
-  ["000600.png"],
+  ["01000600.png"],
   []
 ]
 
@@ -1105,568 +1105,568 @@
 {
   "page0":[
     ["","",0],
-    ["PLAY","theme3.mp3"],
+    ["PLAY","theme3.ogg"],
     [
-  "030000.png", "030000.png",
-  "030001.png", "030001.png",
-  "030002.png", "030002.png",
-  "030003.png", "030003.png",
-  "030004.png", "030004.png",
-  "030005.png", "030005.png",
-  "030006.png", "030006.png",
-  "030007.png", "030007.png",
-  "030008.png", "030008.png",
-  "030009.png", "030009.png",
-  "030010.png", "030010.png",
+  "01030000.png", "01030000.png",
+  "01030001.png", "01030001.png",
+  "01030002.png", "01030002.png",
+  "01030003.png", "01030003.png",
+  "01030004.png", "01030004.png",
+  "01030005.png", "01030005.png",
+  "01030006.png", "01030006.png",
+  "01030007.png", "01030007.png",
+  "01030008.png", "01030008.png",
+  "01030009.png", "01030009.png",
+  "01030010.png", "01030010.png",
 
-  "030010.png", "030010.png",
-  "030009.png", "030009.png",
-  "030008.png", "030008.png",
-  "030007.png", "030007.png",
-  "030006.png", "030006.png",
-  "030005.png", "030005.png",
-  "030004.png", "030004.png",
-  "030003.png", "030003.png",
-  "030002.png", "030002.png",
-  "030001.png", "030001.png",
-  "030000.png", "030000.png"
+  "01030010.png", "01030010.png",
+  "01030009.png", "01030009.png",
+  "01030008.png", "01030008.png",
+  "01030007.png", "01030007.png",
+  "01030006.png", "01030006.png",
+  "01030005.png", "01030005.png",
+  "01030004.png", "01030004.png",
+  "01030003.png", "01030003.png",
+  "01030002.png", "01030002.png",
+  "01030001.png", "01030001.png",
+  "01030000.png", "01030000.png"
 ],
     [
 
     ]
 ],
 "page1": [["", "She gets back from the cafe car. Places a water down with him, holds another. Swift and straight on her heels, her precise, grandiloquent, polyrhythmic footsteps build to a rapid tiptoe at the seats before sliding in with feigned oscitant elation into a relaxed heap.",1], [], [
-"AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-"AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-"AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-"AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-"AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-"AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-"AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-"AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-"AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-"AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-"AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-"AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-"AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-"AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-"AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-"AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-"AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-"AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-"AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-"AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-"AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-"AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-"AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-"AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-"AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-"AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-"AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-"AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-"AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-"AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-"AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp",
-"AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp"], []],
+"AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+"AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+"AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+"AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+"AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+"AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+"AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+"AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+"AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+"AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+"AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+"AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+"AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+"AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+"AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+"AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+"AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+"AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+"AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+"AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+"AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+"AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+"AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+"AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+"AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+"AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+"AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+"AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+"AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+"AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+"AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png",
+"AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png"], []],
   "page2": [["", "One hazel eye gleams before him from under the hoodie, piercing, eternal, and alive with complicated emotion, watching him, Argus-eyed, mentally peeling his skin back and gazing upon the viscera. He could tell when he was being studied, it was like being shined on by a flashlight, no, a floodlight, but the biggest one you could think of, that light was subtle and enveloped everything, but still he could feel it when its center was on him."], [], [
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp"], []],
-  "page3": [["", "Do you play games?"], ["STOP","theme3.mp3"], [
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp"], []],
-  "page4": [["", "She holds up a deck of cards."], ["PLAY", "theme9.mp3"], [
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp"], []],
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png"], []],
+  "page3": [["", "Do you play games?"], ["STOP","theme3.ogg"], [
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png"], []],
+  "page4": [["", "She holds up a deck of cards."], ["PLAY", "theme9.ogg"], [
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png"], []],
   "page5": [["", "Flicks it at him, he catches it perfectly, its empty"], [], [
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp"], []],
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png"], []],
   "page6": [["", "She smiles and fans out the entire deck"], [], [
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp"], []],
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png"], []],
   "page7": [["", "\"Did you know that if you add up all the numbers with aces as ones and facecards going up to 13 you get... 364? Wait...\""], [], [
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp"], []],
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png"], []],
   "page8": [["", "She came up with a random number"], [], ["black.png"], []],
   "page9": [["", "\"Oh yea no, here! Two jokers, each representing a 1, give us 366!\""], [], [
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp"], []],
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png"], []],
   "page10": [["", "...?"], [], ["black.png"], []],
   "page11": [["", "\"The number of days in a leap year! And here you go sir.\""], [], [
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp"], []],
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png"], []],
   "page12": [["", "She tosses him the joker."], [], ["black.png"], []],
   "page13": [["", "\"365! The number of days in a year.\""], [], [
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp"], []],
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png"], []],
   "page14": [["", "He stared blankly at the mathematics displayed before him"], [], ["black.png"], []],
   "page15": [["", "\"And a deck of 52 cards - 52 weeks in a year\" she hums to herself and she cuts the deck and begins shuffling"], [], [
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp"], []],
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png"], []],
   "page16": [["", "\"Did anyone come by when I was gone?\""], [], [
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp"], []],
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png"], []],
   "page17": [["", "mostly entranced by the shuffling, he gives his head a slight shake"], [], [
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp"], []],
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png"], []],
   "page18": [["", "\"I still can't think of an answer - that business with the seat numbers...\""], [], [
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp"], []],
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png"], []],
   "page19": [["", "She finishes shuffling, splits the deck in half and proposes an offer"], [], [
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp"], []],
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png"], []],
   "page20": [["", "Humor me, pal"], [], [
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp",
-  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.bmp"], []],
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HalBQUjNJaOSNwllXoi7_f46Y8U.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ_PTUM1Ftyd4AwC4BNypliO1kS.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HZ8h3aeG4SNwDdaSgnQo-mcikd0.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HYn3CE0GL_ct2zdDgDS51KtpayT.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HbDU47xSg79e0UW6GjmsqCM__GI.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6HYFq0hHdMrT3RQjKBgjMkU0bPOY.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6Hav4arcag0vDqrZsuXe7hXxjNqs.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYKBYDcA8bamOhLInZ4ei4xoGOG.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HYMeVvB86bLG1RDx-TaN6M_KtGf.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HbIdxmc4EuU0m83iddG-yep-l8G.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6HavaEttbHK0bxBus8a4p3_PsDUD.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6Hb-B_KW1_1DDolubuhN8nmUANGl.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6HabfIy2SYT-EfHDloVzkxXsLwt2.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6Ha_QXB2aEUpIkXV7-oMKo-Na3f7.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYA8pmHjydE8oUZUpX-Z9gpMZMF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png",
+  "AB8u6HYQzeTlO48pA7wHtD96xZyfvznF.png"], []],
   "page21": [["", ""], [], ["black.png"], []],
   "page22": [["", "\"Ever played war?\""], [], ["black.png"], []],
   "page23": [["", "Shakes his head. 'Only a bit of solitaire'"], [], ["black.png"], []],

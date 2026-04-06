@@ -550,7 +550,7 @@ class Reader():
         self.specialscroll = 0 #future function which allows for backtracking into a different timeline
         self.skip = 0
         self.menu_count = 0
-        self.menu_anim_array=['010901.png','010902.png']
+        self.menu_anim_array=['01010901.png','01010902.png']
         self.log = 0
         self.timeline_text = ""
         self.timeline_buffer = []
@@ -858,7 +858,7 @@ class Reader():
 
         if frames and 0 <= count < len(frames):
             #print(count)
-            ''' THIS IS THE SLOW DOWN'''
+            '''below causes runaway draw layers and slow down'''
             #current_pic = pyglet.resource.image(frames[count-1])
             #For local running
             current_pic = pyglet.image.load('resources/frames/'+frames[count])
@@ -949,9 +949,10 @@ class Reader():
         # })
         #menu_label.set_style("Chrono Cross",color=(255,255,255,1))
         #self.menu_anim_array=['white.png','black.png']
+
         menu_pic = pyglet.image.load('resources/frames/'+self.menu_anim_array[self.menu_count])
         #for pyinstaller
-        # menu_pic = pyglet.image.load(os.path.join(base_path, "resources", "frames", self.menu_anim_array[self.menu_count]))
+        #menu_pic = pyglet.image.load(os.path.join(base_path, "resources", "frames", self.menu_anim_array[self.menu_count]))
         menu_pic.blit(window.width // 2 - menu_pic.width // 2, window.height // 2 - menu_pic.height // 2)
         center_in_window_width = (window.width - menu_pic.width) // 2
         menu_label = pyglet.text.Label('Press SPACE to begin, F2 to LOAD chapter, ESC to Exit, M to Toggle Releases, L for Log, F for Fullscreen',
@@ -1067,14 +1068,14 @@ def LevelSelect(json_array, story_array, level):
     return level, story_array[level]
 
 if __name__ == '__main__':
-    #pyglet.resource.path = ['resources/media','resources/frames', 'resources/fonts']
+    #pyglet.resource.path = ['_internal/resources/media','_internal/resources/frames', '_internal/resources/fonts']
     pyglet.resource.path = ['resources/media','resources/frames','resources/fonts']
-
+    #
     # if getattr(sys, 'frozen', False):
     #     base_path = sys._MEIPASS
     # else:
     #     base_path = os.path.dirname(__file__)
-
+    #
     # pyglet.resource.path = [
     #     os.path.join(base_path, "resources", "media"),
     #     os.path.join(base_path, "resources", "frames"),
@@ -1111,7 +1112,7 @@ if __name__ == '__main__':
     keys = key.KeyStateHandler()
     #abstract music player into class
     music_player = pyglet.media.Player()
-    music = pyglet.resource.media("theme0.wav")
+    music = pyglet.resource.media("theme0.ogg")
     music_player.queue(music)
     setattr(music_player,'loop',True)
 
